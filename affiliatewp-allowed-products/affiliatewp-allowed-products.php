@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: AffiliateWP - Allowed Products
- * Plugin URI: https://affiliatewp.com/add-ons/official-free/allowed-products/
+ * Plugin URI: https://affiliatewp.com/addons/allowed-products/
  * Description: Allows only specific products to generate commission
- * Author: Sandhills Development, LLC
- * Author URI: https://sandhillsdev.com
- * Version: 1.3
+ * Author: AffiliateWP
+ * Author URI: https://affiliatewp.com
+ * Version: 1.3.0
  *
  * AffiliateWP is distributed under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 2 of the License, or
@@ -158,7 +158,7 @@ class AffiliateWP_AP_Requirements_Check extends AffiliateWP_Requirements_Check_v
 	 * @return string Unmet requirements URL.
 	 */
 	protected function unmet_requirements_url() {
-		return 'https://docs.affiliatewp.com/article/2361-minimum-requirements-roadmaps';
+		return 'https://affiliatewp.com/docs/minimum-requirements-roadmap/';
 	}
 
 }

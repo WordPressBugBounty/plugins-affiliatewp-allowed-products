@@ -1,10 +1,10 @@
 === AffiliateWP - Allowed Products ===
-Contributors: sumobi, mordauk, drewapicture, alexstandiford
-Tags: AffiliateWP, affiliate, Pippin Williamson, Andrew Munro, mordauk, pippinsplugins, sumobi, ecommerce, e-commerce, e commerce, selling, referrals, easy digital downloads, digital downloads, woocommerce, woo, products, product, allowed, affiliate marketing
+Contributors: sumobi, aubreypwd
+Tags: affiliatewp, allowed products, commission products, woocommerce, easy digital downloads
 Requires at least: 5.2
-Tested up to: 6.0
-Requires PHP: 5.6
-Stable tag: 1.3
+Tested up to: 6.8
+Requires PHP: 7.4
+Stable tag: 1.3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -37,13 +37,13 @@ Go to Affiliates &rarr; Settings &rarr; Integrations and enter the IDs of the pr
 
 == Changelog ==
 
-= 1.3 =
+= 1.3.0 =
 * New: Requires WordPress 5.2 minimum
 
 = 1.2.1 =
 * Confirm referral products is an array before attempting to iterate them
 
-= 1.2 =
+= 1.2.0 =
 * New: Enforce minimum dependency requirements checking
 * New: Requires PHP 5.6 minimum
 * New: Requires WordPress 5.0 minimum
@@ -60,7 +60,7 @@ Go to Affiliates &rarr; Settings &rarr; Integrations and enter the IDs of the pr
 = 1.1.1 =
 * Fix: Referrals being recorded with an amount of 0.00
 
-= 1.1 =
+= 1.1.0 =
 * Fix: Admin notice is not dismissible in some circumstances
 * Fix: All commission rates set to 0 when used with non-supported integrations
 * Tweak: Encapsulate the plugin loader and activation into a class to avoid errors
